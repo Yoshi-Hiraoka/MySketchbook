@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>落書き帳</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>落書き帳</h1>
+    <p>＊消しゴムモードはダブルクリックで解除できます。</p>
+    <div class="canvas-wrapper">
+      <canvas id="myCanvas" width="800" height="600"></canvas>
+    </div>
+    <div class="btn">
+      <select id="color">
+        <option value="black">黒</option>
+        <option value="red">赤</option>
+        <option value="blue">青</option>
+        <option value="yellow">黄</option>
+        <option value="orange">オレンジ</option>
+        <option value="green">緑</option>
+        <option value="brown">茶</option>
+        <option value="gray">灰</option>
+        <option value="skyblue">水色</option>
+        <option value="purple">紫</option>
+        <option value="white">白</option>
+      </select>
+      <select id="thickness">
+        <option value="1">細</option>
+        <option value="3">中細</option>
+        <option value="5">中</option>
+        <option value="7">太</option>
+        <option value="12">極太</option>
+      </select>
+      <button id="eraser" value="30">消しゴムモード</button>
+      <button id="erase">削除</button>
+      <button id="save">ギャラリーに追加</button>
+    </div>
+    <div id="gallery">
+
+    </div>
+    <footer>
+      <a href="#">Yoshi's Profile Pageへ戻る</a>
+    </footer>
+    <script src="js/main.js">
+
+    </script>
+  </body>
+</html>
