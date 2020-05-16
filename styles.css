@@ -1,0 +1,51 @@
+body {
+  background: #BCD6D1;
+  font-family: serif;
+  margin: 0;
+}
+h1, p {
+  text-align: center;
+}
+#myCanvas {
+  background: #fff;
+  border: 20px solid #ddd;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#myCanvas.eraser-mode {
+  cursor: crosshair;
+}
+.canvas-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.btn {
+  text-align: center;
+  margin: 2vw;
+}
+#gallery {
+  width: 89vw;
+  margin: 0 auto;
+}
+.thumbnails {
+  width: 20vw;
+  height: 15vw;
+  background: #fff;
+  border: 1vw solid #ddd;
+  box-sizing: border-box;
+}
+#gallery > a:not(:nth-child(4n)) {
+  margin-right: 3vw;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  margin: 5vw 0;
+}
+footer a:hover {
+  border-bottom: 1px solid #333;
+}
