@@ -15,7 +15,7 @@ h1, p {
 #myCanvas.eraser-mode {
   cursor: crosshair;
 }
-.canvas-wrapper {
+.container {
   width: 800px;
   margin: 0 auto;
 }
@@ -49,3 +49,10 @@ footer a {
 footer a:hover {
   border-bottom: 1px solid #333;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
+
