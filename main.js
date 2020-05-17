@@ -4,11 +4,6 @@
 
     const canvas = document.getElementById('myCanvas');
 
-    if (screen.width < 860) {
-        canvas.width = 800 * screen.width / 860;
-        canvas.height = 600 * screen.width / 860;
-    }
-
     const ctx = canvas.getContext('2d');
 
     const color = document.getElementById('color');
@@ -116,3 +111,4 @@
 
     draw();
 }
+
